@@ -1,0 +1,145 @@
+body {
+  color: #24292e;
+  margin: 8px;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3 {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 2.2em;
+  text-align: center;
+  margin-bottom: 64px;
+  padding-top: 20px;
+}
+h3 {
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+  margin-left: 30px;
+  display: list-item;
+}
+a {
+  text-decoration: none;
+}
+header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+header ul {
+  display: flex;
+  list-style-type: disc;
+  unicode-bidi: isolate;
+}
+header li a {
+  color: #24292e;
+}
+header li a:hover {
+  color: dimgray;
+}
+section {
+  max-width: 960px;
+  margin: 0 auto 160px auto;
+  padding: 0 4%;
+  font-size: 0.9em;
+  display: block;
+  line-height: 1.4em;
+}
+.mv {
+  margin-bottom: 120px;
+  display: block;
+}
+.mv img {
+  width: 100%;
+  max-width: 1920px;
+  height: 500px;
+  object-fit: cover;
+}
+.about ul {
+  margin-bottom: 24px;
+}
+.about li:first-child {
+  margin-bottom: 8px;
+}
+.works img {
+  max-width: 100%;
+}
+.works ul {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.works li {
+  width: 32%;
+  margin-bottom: 24px;
+}
+.works a:hover {
+  filter: brightness(110%);
+  transition: 0.3s;
+}
+.contact {
+  text-align: center;
+}
+.contact p {
+  margin-bottom: 64px;
+}
+.contact a {
+  background-color: #24292e;
+  color: aliceblue;
+  padding: 18px 50px;
+}
+.contact a:hover {
+  color: #24292e;
+  background-color: darkgray;
+}
+footer {
+  background-color: #24292e;
+  color: white;
+  font-size: 0.5em;
+  padding: 20px 24px;
+  text-align: center;
+}
+footer p {
+  margin: 1em;
+}
+@media (max-width: 760px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+  }
+  h1 {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .works ul {
+    flex-direction: column;
+    padding-left: 20%;
+  }
+  .works li {
+    width: 100%;
+    margin: 0% auto 10% auto;
+  }
+  .works img {
+    max-width: 73%;
+  }
+}
